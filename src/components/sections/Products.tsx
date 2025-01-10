@@ -17,7 +17,7 @@ export function Products() {
       title: 'Leads Solutions',
       description: 'Eco-friendly, Low-VOC Products for a Healthier Environment',
       features: ['Non-toxic', 'Durable finish', 'Extensive Color Selection'],
-      image: 'https://rororwxhoilrmr5q.ldycdn.com/cloud/qiBpiKrpRmiSrrqrrnlji/Smfen-800-800.jpg'
+      image: 'https://as2.ftcdn.net/v2/jpg/03/14/49/35/1000_F_314493559_oXluee7FlgxIuU74nPkKgkblFY9DkRkO.jpg'
     },
     {
       icon: Lock,

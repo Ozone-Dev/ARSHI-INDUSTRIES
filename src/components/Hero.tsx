@@ -34,9 +34,9 @@ export function Hero() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center parallax" data-speed="0.3">
-          <h1 className="text-4xl tracking-tight font-extrabold text-gray-600 sm:text-5xl md:text-4xl float-animation">
+          <h1 className="text-4xl tracking-tight font-extrabold text-green-400  sm:text-5xl md:text-4xl float-animation">
             <span className="block">ReUse ReCycle GoGreen</span>
-            <span className="block text-green-600">EcoConcesoius  Solution For Sustainable Future</span>
+            <span className="block text-lg  tracking-widest font-bold text-gray-500">Eco Conscious Solution For Sustainable Future</span>
           </h1>
           
           <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-sm md:max-w-3xl parallax" data-speed="0.5">

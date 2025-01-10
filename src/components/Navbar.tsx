@@ -23,8 +23,8 @@ const Navbar = () => {
             <div className="flex items-center">
               <div className="flex-shrink-0 text-emerald-500 font-bold leading-[15px] text-xl mt-2 flex items-center gap-0">
                 <img src=" /AARSHI-INDUSTRIES/img/logo.png" alt="AIPL Logo" className="h-[6rem] w-[6rem] mt-5" />
-                <span>Aarshi Industries <br/>
-               <span className='text-sm text-stone-400'> ReUse ReCycle GoGreen</span>
+                <span className='font-serif font-thin'>Aarshi Industries <br/>
+               {/* <span className='text-sm text-stone-400'> ReUse ReCycle GoGreen</span> */}
                 </span>
               </div>
             </div>
