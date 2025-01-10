@@ -28,7 +28,7 @@ export function Map() {
     
     <div className="flex flex-col justify-between p-6 bg-gray-50 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
       <div>
-        <h3 className="text-2xl font-bold mb-6 text-gray-800">Market Coverage</h3>
+        <h3 className="text-2xl font-bold mb-6 text-gray-500">Market Coverage</h3>
         <ul className="space-y-4 text-gray-700">
           {["Nepal", "India", "Bangladesh", "Sri Lanka", "And expanding across Asia"].map((country) => (
             <li key={country} className="flex items-center space-x-3">
@@ -40,7 +40,7 @@ export function Map() {
       </div>
       
       <div className="mt-8 p-6 bg-white rounded-lg shadow-inner">
-        <h3 className="text-2xl font-bold mb-4 text-gray-800">Headquarters</h3>
+        <h3 className="text-2xl font-bold mb-4 text-gray-500">Headquarters</h3>
         <p className="text-lg text-gray-700">
           Bhairahawa, Lumbini<br />
           Nepal

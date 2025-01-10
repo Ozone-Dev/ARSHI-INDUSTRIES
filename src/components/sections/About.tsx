@@ -96,7 +96,7 @@ export function About() {
             >
               <item.icon className="h-8 w-8 text-green-500 mx-auto mb-4" />
               <div className="text-3xl font-bold text-gray-900 mb-2">{item.stat}</div>
-              <div className="text-lg font-semibold text-gray-800 mb-1">{item.label}</div>
+              <div className="text-lg font-semibold text-gray-500 mb-1">{item.label}</div>
               <div className="text-sm text-gray-600">{item.description}</div>
             </div>
           ))}
