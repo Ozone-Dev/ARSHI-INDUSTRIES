@@ -10,14 +10,14 @@ export function Products() {
       title: 'Eco-Friendly Batteries',
       description: 'Sustainable battery solutions with advanced recycling technology.',
       features: ['Long-lasting', 'Recyclable', 'Low environmental impact'],
-      image: 'https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?auto=format&fit=crop&w=800&q=80'
+      image: 'https://image.makewebeasy.net/makeweb/r_1200x0/ZffKfjIbh/content/AGM_AGM_LN4_[Top_.jpg'
     },
     {
       icon: Droplets,
-      title: 'Green Paint Solutions',
-      description: 'Low-VOC paints for a healthier environment.',
-      features: ['Non-toxic', 'Durable finish', 'Wide color range'],
-      image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80'
+      title: 'Leads Solutions',
+      description: 'Eco-friendly, Low-VOC Products for a Healthier Environment',
+      features: ['Non-toxic', 'Durable finish', 'Extensive Color Selection'],
+      image: 'https://rororwxhoilrmr5q.ldycdn.com/cloud/qiBpiKrpRmiSrrqrrnlji/Smfen-800-800.jpg'
     },
     {
       icon: Lock,
@@ -45,9 +45,9 @@ export function Products() {
         <div className="mt-12 text-center">
           <a
             href="#contact"
-            className="inline-flex items-center px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-medium rounded-lg transition-colors duration-200"
+            className="inline-flex items-center px-6 py-3 bg-emerald-500 hover:bg-green-700 text-white font-medium rounded-lg transition-colors duration-200"
           >
-            Request Quote
+            Learn More
             <ArrowRight className="ml-2 h-5 w-5" />
           </a>
         </div>

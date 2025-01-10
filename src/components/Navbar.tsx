@@ -9,8 +9,9 @@ const Navbar = () => {
   const navItems = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Blog', href: '#blog' },
+    { name: 'Products', href: '#products' },
+    { name: 'Gallery', href: '#gallery' },
+    { name: 'Offerings', href: '#Offerings' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -20,9 +21,11 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <div className="flex-shrink-0 text-emerald-600 font-bold text-xl flex items-center gap-2">
-                <img src=" /AARSHI-INDUSTRIES/logo.png" alt="AIPL Logo" className="h-10 w-10" />
-                <span>Aarshi Industries</span>
+              <div className="flex-shrink-0 text-emerald-500 font-bold leading-[15px] text-xl mt-2 flex items-center gap-0">
+                <img src=" /AARSHI-INDUSTRIES/img/logo.png" alt="AIPL Logo" className="h-[6rem] w-[6rem] mt-5" />
+                <span>Aarshi Industries <br/>
+               <span className='text-sm text-stone-400'> ReUse ReCycle GoGreen</span>
+                </span>
               </div>
             </div>
             <div className="hidden md:block">
@@ -31,14 +34,14 @@ const Navbar = () => {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="text-gray-500 hover:text-emerald-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                    className="text-gray-500 hover:text-emerald-500 px-3 py-2 rounded-md text-sm font-medium transition-colors"
                   >
                     {item.name}
                   </a>
                 ))}
                 <button
                   onClick={() => setIsModalOpen(true)}
-                  className="bg-emerald-600 text-white px-4 py-2 rounded-md text-sm font-small hover:bg-emerald-700 transition-colors"
+                  className="bg-emerald-500 text-white px-4 py-2 rounded-md text-sm font-small hover:bg-emerald-700 transition-colors"
                 >
                   Book Appointment
                 </button>
@@ -47,7 +50,7 @@ const Navbar = () => {
             <div className="md:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-500 hover:text-emerald-600"
+                className="inline-flex items-center justify-center p-2 rounded-md text-gray-500 hover:text-emerald-500"
               >
                 {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
               </button>
@@ -61,7 +64,7 @@ const Navbar = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-500 hover:text-emerald-600 block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-500 hover:text-emerald-500 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   {item.name}
                 </a>
@@ -71,7 +74,7 @@ const Navbar = () => {
                   setIsModalOpen(true);
                   setIsOpen(false);
                 }}
-                className="w-full text-left text-gray-500 hover:text-emerald-600 block px-3 py-2 rounded-md text-base font-medium"
+                className="w-full text-left text-gray-500 hover:text-emerald-500 block px-3 py-2 rounded-md text-base font-medium"
               >
                 Book Appointment
               </button>

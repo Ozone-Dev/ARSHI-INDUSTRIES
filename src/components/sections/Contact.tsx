@@ -55,7 +55,7 @@ export function Contact() {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-green-500 mr-3" />
-                  <span>+977  9851204146 </span>
+                  <span>+977 985-7028693  </span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 text-green-500 mr-3" />

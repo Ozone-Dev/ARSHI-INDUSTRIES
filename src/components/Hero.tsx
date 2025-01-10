@@ -35,20 +35,20 @@ export function Hero() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center parallax" data-speed="0.3">
           <h1 className="text-4xl tracking-tight font-extrabold text-gray-600 sm:text-5xl md:text-4xl float-animation">
-            <span className="block">Eco-Conscious Solutions for</span>
-            <span className="block text-green-600">A Sustainable Future</span>
+            <span className="block">ReUse ReCycle GoGreen</span>
+            <span className="block text-green-600">EcoConcesoius  Solution For Sustainable Future</span>
           </h1>
           
           <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-sm md:max-w-3xl parallax" data-speed="0.5">
-            Leading manufacturer in Nepal specializing in batteries, paints, and lead seals.
+            Leading manufacturer in Nepal specializing in leads, battery, and lead seals.
             Committed to environmental sustainability and innovation.
           </p>
           
           <div className="mt-10 flex justify-center space-x-6">
-            <a href="#contact" className="inline-flex items-center px-4 py-2 border border-transparent text-base font-small rounded-md text-white bg-green-600 hover:bg-green-700 transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
+            <a href="#contact" className="inline-flex items-center px-4 py-2 border border-transparent text-base font-small rounded-md text-white bg-emerald-500 hover:bg-green-700 transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
               Get Started
             </a>
-            <a href="#about" className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-green-600 bg-white hover:bg-gray-50 transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
+            <a href="#about" className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-emerald-500 bg-white hover:bg-gray-100 transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
               Learn More
             </a>
           </div>
@@ -57,7 +57,7 @@ export function Hero() {
         <div className="mt-20 grid grid-cols-1 gap-8 sm:grid-cols-3">
           {[
             { icon: Battery, title: 'Battery Solutions', description: 'Eco-friendly battery manufacturing and recycling' },
-            { icon: Droplets, title: 'Paint Products', description: 'High-quality, environmentally conscious paints' },
+            { icon: Droplets, title: 'Lead Healer', description: 'High-quality, environmentally conscious leads' },
             { icon: Lock, title: 'Lead Seals', description: 'Secure and sustainable sealing solutions' },
           ].map(( feature, index) => (
             <div 
