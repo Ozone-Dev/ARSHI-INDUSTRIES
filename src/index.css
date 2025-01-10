@@ -15,9 +15,7 @@
     animation-delay: 4s;
   }
 }
-body{
-  scroll-behavior: smooth;
-}
+
 /* Parallax and Animation Effects */
 .parallax {
   transform: translateZ(0);
