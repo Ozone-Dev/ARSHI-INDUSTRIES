@@ -40,7 +40,7 @@ export function Hero() {
           </h1>
           
           <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-sm md:max-w-3xl parallax" data-speed="0.5">
-            Leading manufacturer in Nepal specializing in leads, battery, and lead seals.
+            Leading manufacturer in Nepal specializing in leads bricks, battery recycle solutions, and remelted lead (RML).
             Committed to environmental sustainability and innovation.
           </p>
           
@@ -56,9 +56,9 @@ export function Hero() {
 
         <div className="mt-20 grid grid-cols-1 gap-8 sm:grid-cols-3">
           {[
-            { icon: Battery, title: 'Battery Solutions', description: 'Eco-friendly battery manufacturing and recycling' },
-            { icon: Droplets, title: 'Lead Healer', description: 'High-quality, environmentally conscious leads' },
-            { icon: Lock, title: 'Lead Seals', description: 'Secure and sustainable sealing solutions' },
+            { icon: Battery, title: 'Battery  recycle Solutions', description: 'Eco-friendly battery manufacturing and recycling' },
+            { icon: Droplets, title: 'Lead bricks', description: 'High-quality, environmentally conscious leads' },
+            { icon: Lock, title: 'Remelted lead (RML)', description: 'High purity and consistent quality' },
           ].map(( feature, index) => (
             <div 
               key={feature.title} 

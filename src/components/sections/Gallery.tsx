@@ -6,14 +6,14 @@ interface ImageItem {
 }
 
 const images: ImageItem[] = [
-  { src: "https://th.bing.com/th/id/OIP.Adgtj6q3QTdqaAfN3ndEswHaE1?rs=1&pid=ImgDetMain", title: "Vintage Car" },
-  { src: "https://th.bing.com/th/id/R.bcf212cb738220cb8d3b286a7bbcc9f0?rik=Vqi01YSd0YDB9A&pid=ImgRaw&r=0", title: "Blueberries" },
-  { src: "https://th.bing.com/th/id/OIP.YeSN1YouGpMhvdd_oyUeAwHaE0?rs=1&pid=ImgDetMain", title: "Mountain View" },
-  { src: "https://th.bing.com/th/id/OIP.Nto4QhjWGbZUXzYkebGBzwHaJQ?rs=1&pid=ImgDetMain", title: "Solar Panels" },
-  { src: "https://th.bing.com/th/id/OIP.-9yUwV-2ou2CSg1j0_ee2wHaE8?rs=1&pid=ImgDetMain", title: "Ocean Waves" },
-  { src: "https://th.bing.com/th/id/OIP.-9yUwV-2ou2CSg1j0_ee2wHaE8?rs=1&pid=ImgDetMain", title: "Ocean Waves" },
-  { src: "https://th.bing.com/th/id/OIP.-9yUwV-2ou2CSg1j0_ee2wHaE8?rs=1&pid=ImgDetMain", title: "Ocean Waves" },
-  { src: "https://th.bing.com/th/id/OIP.-9yUwV-2ou2CSg1j0_ee2wHaE8?rs=1&pid=ImgDetMain", title: "Ocean Waves" },
+  { src: "../img/img1.jpg", title: "Vintage Car" },
+  { src: "../img/img2.jpg", title: "Blueberries" },
+  { src: "../img/img3.jpg", title: "Mountain View" },
+  { src: "../img/img4.jpg", title: "Solar Panels" },
+  { src: "../img/img5.jpg", title: "Ocean Waves" },
+  { src: "../img/img6.jpg", title: "Ocean Waves" },
+  { src: "../img/img7.jpg", title: "Ocean Waves" },
+  { src: "../img/img8.jpg", title: "Ocean Waves" },
   // Add more images here for variety
 ];
 

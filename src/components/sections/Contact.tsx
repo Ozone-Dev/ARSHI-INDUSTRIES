@@ -63,7 +63,8 @@ export function Contact() {
                 </div>
                 <div className="flex items-center">
                   <MapPin className="h-5 w-5 text-green-500 mr-3" />
-                  <span>Bhairahawa, Nepal</span>
+                  <span>Bhairahawa, SEZ(Special Economic Zone)<br />
+                  Lumbini, Nepal</span>
                 </div>
               </div>
             </div>

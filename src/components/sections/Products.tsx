@@ -15,15 +15,18 @@ export function Products() {
     {
       icon: Droplets,
       title: 'Recycled Plastic Granules',
-      description: 'Eco-friendly, Low-VOC Products for a Healthier Environment',
-      features: ['Non-toxic', 'Durable finish', 'Extensive Color Selection'],
+      
+        "description": "Eco-friendly, sustainable materials for a greener planet",
+        "features": ["Non-toxic and safe", "Durable and long-lasting", "Wide range of colors and applications"],
+      
+      
       image: 'https://www.gravitaindia.com/Upload/Images/thumbnail/plastic-granules-mobile-v2.webp'
     },
     {
       icon: Lock,
-      title: 'Aluminium Alloys Suppliers',
-      description: 'Tamper-evident seals made from recycled materials.',
-      features: ['High security', 'Eco-friendly', 'Custom options'],
+      title: 'Remelted lead (RML)',
+      "description": "High-quality remelted lead (RML) produced from recycled lead materials for industrial use.",
+  "features": ["Eco-friendly and sustainable", "High purity and consistent quality", "Customizable ingot sizes"],
       image: 'https://www.gravitaindia.com/Upload/Images/thumbnail/Aluminium-Recycling.webp'
     }
   ];
