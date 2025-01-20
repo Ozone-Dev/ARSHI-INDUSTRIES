@@ -41,7 +41,7 @@ const Gallery: React.FC = () => {
   };
 
   return (
-    <section className="py-16 bg-gradient-to-b from-gray-100 to-gray-300">
+    <section id="gallery" className="py-16 bg-gradient-to-b from-gray-100 to-gray-300">
       <h2 className="text-center text-5xl font-bold text-gray-600 mb-10">
          Gallery
       </h2>

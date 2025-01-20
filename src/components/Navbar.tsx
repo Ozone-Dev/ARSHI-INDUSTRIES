@@ -11,7 +11,7 @@ const Navbar = () => {
     { name: 'About', href: '#about' },
     { name: 'Products', href: '#products' },
     { name: 'Gallery', href: '#gallery' },
-    { name: 'Offerings', href: '#Offerings' },
+    // { name: 'Offerings', href: '#Offerings' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -22,7 +22,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0 text-emerald-500 font-bold leading-[15px] text-xl mt-2 flex items-center gap-0">
-                <img src=" ./AARSHI-INDUSTRIES/img/logo.png" alt="AIPL Logo" className="h-[6rem] w-[6rem] mt-5" />
+                <img src="https://github.com/Ozone-Dev/AARSHI-INDUSTRIES/blob/main/img/logo.png?raw=true" alt="AIPL Logo" className="h-[6rem] w-[6rem] mt-5" />
                 <span className='font-serif font-thin'>Aarshi Industries <br/>
                {/* <span className='text-sm text-stone-400'> ReUse ReCycle GoGreen</span> */}
                 </span>

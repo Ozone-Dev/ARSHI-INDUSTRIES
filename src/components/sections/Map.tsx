@@ -15,7 +15,7 @@ export function Map() {
   <div className="grid gap-12 grid-cols-1 md:grid-cols-2">
     <div className="h-[500px] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3539.3046621916446!2d83.475157!3d27.490899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjfCsDI5JzI3LjIiTiA4M8KwMjgnMzAuNiJF!5e0!3m2!1sen!2snp!4v1736509444919!5m2!1sen!2snp"
+        src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d7078.609324383289!2d83.475157!3d27.490899!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjfCsDI5JzI3LjIiTiA4M8KwMjgnMzAuNiJF!5e0!3m2!1sen!2snp!4v1737351966352!5m2!1sen!2snp" 
         width="100%"
         height="100%"
         style={{ border: 0 }}
@@ -44,7 +44,7 @@ export function Map() {
         <h3 className="text-2xl font-bold mb-4 text-gray-500">Headquarters</h3>
         <p className="text-lg text-gray-700">
         Bhairahawa, SEZ(Special Economic Zone)<br />
-          Nepal
+        Lumbini, Nepal
         </p>
       </div>
     </div>

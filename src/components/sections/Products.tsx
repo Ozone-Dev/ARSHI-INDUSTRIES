@@ -7,24 +7,24 @@ export function Products() {
   const products = [
     {
       icon: Battery,
-      title: 'Eco-Friendly Batteries',
+      title: 'Battery Recycling - Lead',
       description: 'Sustainable battery solutions with advanced recycling technology.',
       features: ['Long-lasting', 'Recyclable', 'Low environmental impact'],
-      image: 'https://image.makewebeasy.net/makeweb/r_1200x0/ZffKfjIbh/content/AGM_AGM_LN4_[Top_.jpg'
+      image: 'https://www.gravitaindia.com/Upload/Images/thumbnail/Battery-Recycling-Lead.webp'
     },
     {
       icon: Droplets,
-      title: 'Leads Solutions',
+      title: 'Recycled Plastic Granules',
       description: 'Eco-friendly, Low-VOC Products for a Healthier Environment',
       features: ['Non-toxic', 'Durable finish', 'Extensive Color Selection'],
-      image: 'https://as2.ftcdn.net/v2/jpg/03/14/49/35/1000_F_314493559_oXluee7FlgxIuU74nPkKgkblFY9DkRkO.jpg'
+      image: 'https://www.gravitaindia.com/Upload/Images/thumbnail/plastic-granules-mobile-v2.webp'
     },
     {
       icon: Lock,
-      title: 'Security Seals',
+      title: 'Aluminium Alloys Suppliers',
       description: 'Tamper-evident seals made from recycled materials.',
       features: ['High security', 'Eco-friendly', 'Custom options'],
-      image: 'https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=800&q=80'
+      image: 'https://www.gravitaindia.com/Upload/Images/thumbnail/Aluminium-Recycling.webp'
     }
   ];
 
