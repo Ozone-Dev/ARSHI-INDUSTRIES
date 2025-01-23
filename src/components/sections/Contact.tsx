@@ -59,7 +59,7 @@ export function Contact() {
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 text-green-500 mr-3" />
-                  <span>info@aarshiindustries.com</span>
+                  <span>info@Arshiindustries.com</span>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="h-5 w-5 text-green-500 mr-3" />

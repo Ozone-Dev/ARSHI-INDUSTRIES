@@ -46,7 +46,7 @@ export function About() {
     <section id="about" className="py-20 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle
-          title="About Aarshi Industries"
+          title="About Arshi Industries"
           subtitle="Leading Nepal's Green Manufacturing Revolution"
         />
         
@@ -55,7 +55,7 @@ export function About() {
             <div className="bg-white/30 backdrop-blur-lg rounded-2xl p-6 shadow-xl hover-lift hover-glow">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Story</h3>
               <p className="text-gray-600 leading-relaxed">
-                Founded in 2010, Aarshi Industries has been at the forefront of sustainable manufacturing in Nepal. 
+                Founded in 2010, Arshi Industries has been at the forefront of sustainable manufacturing in Nepal. 
                 Our journey began with a simple mission: to create eco-friendly solutions for everyday industrial needs.
               </p>
               <p className="text-gray-600 leading-relaxed mt-4">

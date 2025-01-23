@@ -6,14 +6,16 @@ interface ImageItem {
 }
 
 const images: ImageItem[] = [
-  { src: "https://github.com/Ozone-Dev/AARSHI-INDUSTRIES/blob/main/src/components/img/img1.JPG", title: "Vintage Car" },
-  { src: "https://github.com/Ozone-Dev/AARSHI-INDUSTRIES/blob/main/src/components/img/img11.JPG", title: "Blueberries" },
-  { src: "https://github.com/Ozone-Dev/AARSHI-INDUSTRIES/blob/main/src/components/img/img12.JPG", title: "Mountain View" },
-  { src: "https://github.com/Ozone-Dev/AARSHI-INDUSTRIES/blob/main/src/components/img/img13.JPG", title: "Solar Panels" },
-  { src: "https://github.com/Ozone-Dev/AARSHI-INDUSTRIES/blob/main/src/components/img/img3.JPG", title: "Ocean Waves" },
-  { src: "https://github.com/Ozone-Dev/AARSHI-INDUSTRIES/blob/main/src/components/img/img4.JPG", title: "Ocean Waves" },
-  { src: "https://github.com/Ozone-Dev/AARSHI-INDUSTRIES/blob/main/src/components/img/img6.JPG", title: "Ocean Waves" },
-  { src: "https://github.com/Ozone-Dev/AARSHI-INDUSTRIES/blob/main/src/components/img/img7.JPG", title: "Ocean Waves" },
+  { src: "https://github.com/Ozone-Dev/Aarshi-INDUSTRIES/blob/main/src/components/img/img1.JPG?raw=true", title: "Vintage Car" },
+  { src: "https://github.com/Ozone-Dev/Aarshi-INDUSTRIES/blob/main/src/components/img/img12.JPG?raw=true", title: "Blueberries" },
+  { src: "https://github.com/Ozone-Dev/Aarshi-INDUSTRIES/blob/main/src/components/img/img4.JPG?raw=true", title: "Mountain View" },
+  { src: "https://github.com/Ozone-Dev/Aarshi-INDUSTRIES/blob/main/src/components/img/img8.JPG?raw=true", title: "Solar Panels" },
+  { src: "https://github.com/Ozone-Dev/Aarshi-INDUSTRIES/blob/main/src/components/img/img2.JPG?raw=true", title: "Ocean Waves" },
+  { src: "https://github.com/Ozone-Dev/Aarshi-INDUSTRIES/blob/main/src/components/img/img6.JPG?raw=true", title: "Ocean Waves" },
+  { src: "https://github.com/Ozone-Dev/Aarshi-INDUSTRIES/blob/main/src/components/img/img.jpg?raw=true", title: "Ocean Waves" },
+  { src: "https://github.com/Ozone-Dev/Aarshi-INDUSTRIES/blob/main/src/components/img/img5.JPG?raw=true", title: "Ocean Waves" },
+  { src: "https://github.com/Ozone-Dev/Aarshi-INDUSTRIES/blob/main/src/components/img/img9.JPG?raw=true", title: "Ocean Waves" },
+  { src: "https://github.com/Ozone-Dev/Aarshi-INDUSTRIES/blob/main/src/components/img/img11.JPG?raw=true", title: "Ocean Waves" },
   // Add more images here for variety
 ];
 

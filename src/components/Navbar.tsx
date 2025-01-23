@@ -17,19 +17,19 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed w-full z-50 bg-white/10 backdrop-blur-lg border-b border-white/20">
+      <nav className="fixed w-full z-50 text-center items-center justify-center bg-white/10 backdrop-blur-lg border-b border-white/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <div className="flex-shrink-0 text-emerald-500 font-bold leading-[15px] text-xl mt-2 flex items-center gap-0">
-                <img src="https://github.com/Ozone-Dev/AARSHI-INDUSTRIES/blob/main/img/logo.png?raw=true" alt="AIPL Logo" className="h-[6rem] w-[6rem] mt-5" />
-                <span className='font-serif font-thin'>Aarshi Industries <br/>
+              <div className="flex-shrink-0 text-brand-brown font-bold leading-[15px] text-xl mt-3 flex text-center items-center justify-center gap-0">
+                <img src="https://github.com/Ozone-Dev/Aarshi-INDUSTRIES/blob/main/src/components/img/logo.png?raw=true" alt="AIPL Logo" className="h-[6rem] w-[6rem] mt-5" />
+                <span className=' text-2xl  mt-2  tracking-tight font-spartan   font-bold'>Arshi Industries <span className='text-sm'>Pvt. Ltd.</span>  <br/>
                {/* <span className='text-sm text-stone-400'> ReUse ReCycle GoGreen</span> */}
                 </span>
               </div>
             </div>
             <div className="hidden md:block">
-              <div className="ml-10 flex items-center space-x-4">
+              <div className="ml-10 flex mt-4 items-center space-x-4">
                 {navItems.map((item) => (
                   <a
                     key={item.name}
